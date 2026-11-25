@@ -1,0 +1,14 @@
+{
+  "model": {
+    "fp": 128, "fr": 128, "projection_dim": 128,
+    "fz": 128, "fe": 128, "ff": 128,
+    "k0_pos": 25, "k0_neg": 25, "k": 30, "hard_negatives": 20,
+    "tau": 0.1, "tau_attention": 0.5, "eta": 0.2,
+    "lambda_con": 0.1, "lambda_re": 0.3,
+    "label_dim": 16, "reranker_hidden": 128, "value_hidden": 128
+  },
+  "training": {
+    "learning_rate": 0.0001, "batch_size": 64, "epochs": 60,
+    "weight_decay": 0.00001, "gradient_clip": 5.0
+  }
+}

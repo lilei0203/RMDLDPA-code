@@ -1,0 +1,5 @@
+-r requirements.txt
+-r requirements-encoders.txt
+torch>=2.6
+rdkit==2026.3.6
+openpyxl>=3.1
